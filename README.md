@@ -12,8 +12,6 @@ This repository contains a face recognition system that includes scripts for cap
     - [Step 3: Real-time Face Recognition](#step-3-real-time-face-recognition)
     - [Step 4: Add a New Person](#step-4-add-a-new-person)
 - [Contributing](#contributing)
-- [License](#license)
-
 ## Overview
 
 This face recognition system uses `face_recognition` library to detect and recognize faces. It includes:
