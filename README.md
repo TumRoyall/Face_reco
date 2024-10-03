@@ -49,3 +49,30 @@ Use the `s1_input_face.py` script to capture face images of a person and save th
 
 ```bash
 python s1_input_face.py
+```
+
+
+### Step 2: Train the Model
+
+After capturing face images, run the `s2_tranning.py` script to encode the captured face images and prepare them for recognition.
+
+```bash
+python s2_tranning.py
+```
+### Step 3: Recognize Faces
+To start recognizing faces in real-time, use the `s3_face_recog.py` script. This script will access your camera and identify faces as they appear in front of the camera.
+```bash
+python s3_face_recog.py
+```
+The recognized faces will be displayed on the screen along with their names. If the face is not recognized, it will display "Unknown".
+
+### Step 4: Add New Person
+If you want to add a new person to the system, run the s4_add_new_person.py script. This will allow you to capture new images and add them to the dataset.
+```bash
+python s4_add_new_person.py
+```
+Follow the same process of capturing images, and the person will be added to the system.
+
+## Contributing
+Feel free to submit issues or pull requests to improve this project.
+
